@@ -1,4 +1,4 @@
-const eventDate = new Date("2025-09-15T14:19:00").getTime();
+const eventDate = new Date("2025-09-15T14:40:00").getTime();
 
 const countdownEl = document.getElementById("countdown");
 const revealBtn = document.getElementById("revealBtn");
@@ -61,3 +61,4 @@ revealBtn.addEventListener("click", () => {
     console.log("Autoplay blocked for poster music:", err);
   });
 });
+
