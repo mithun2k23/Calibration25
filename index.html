@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Reveal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Logos -->
+  <img src="SVCE LOGO.png" alt="Left Logo" class="logo left-logo">
+  <img src="Council Logo final.png" alt="Right Logo" class="logo right-logo">
+
+  <!-- Background Music for Reveal Page -->
+  <audio id="revealMusic" src="Reveal page.mp3" autoplay loop></audio>
+
+  <!-- Countdown Container -->
+  <div class="container">
+    <h1 class="title">READY TO WITNESS IN</h1>
+    <div id="countdown">01:00</div>
+    <button id="revealBtn" class="reveal-btn hidden">REVEAL</button>
+  </div>
+
+  <!-- Poster + Music -->
+  <div id="posterSection" class="poster hidden">
+    <img src="banner.png" alt="Event Poster" class="poster-img">
+    <audio id="eventMusic" src="music.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
